@@ -19,7 +19,7 @@
 使用 conda 建立一个单独的环境来使用，本地使用时需要自己安装 hmmer 和对应的 python 库，推荐直接使用`auto-hmmer.yml`来创建环境。
 
 ```bash
-git clone https://github.com/UncleCAT4/auto-hmmer.git
+git clone https://github.com/yuanj82/auto-hmmer.git
 conda env create --file auto-hmmer.yml
 conda activate auto-hmmer
 ```
@@ -40,7 +40,7 @@ bash rm_result.sh
 `fork`此仓库，clone 到本地：
 
 ```bash
-git clone https://github.com/UncleCAT4/auto-hmmer.git
+git clone https://github.com/yuanj82/auto-hmmer.git
 ```
 
 修改`config.py`中的参数后提交更改，action 会自动开始。
